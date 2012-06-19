@@ -1,0 +1,8 @@
+Das sind Beispiele auf eienem Kundenprojekt. Vieles abgeändert, daher wird das Ausführen fehlschlagen.
+
+
+cta.js ist ein Importscript, dass SQL Dateien erzeugt, die auf MySql Datenbank ausgeführt werden. Aus vielen remote XML-Dateien wird eine SQL-"Dump" erzeugt. Es findet dabei eine dynamische Kategorisierung statt.
+
+
+ximport behilft sich einer CSV und und stößt zum Import ein PHP-Script an (hier nicht dabei). PHP ist nicht thread safe, wenn's dabei noch um ein großes Datenvolumen geht. Ich behelfe mir mit Javascript/ node.js für ein intelligentes, konfigurierbares parallel ablafenden Batchablauf
+
